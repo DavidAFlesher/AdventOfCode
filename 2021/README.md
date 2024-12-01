@@ -1,0 +1,1 @@
+I didn't do AoC in 2021, but for fun I've gone back and done some of the problems.
