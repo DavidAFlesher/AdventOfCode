@@ -29,7 +29,7 @@ filter4 = [f for f in filter3 if len(f) == 2]
 
 
 ans = 0
-for t in test4:
+for t in filter4:
     try:
         # if they are just numbers, aka valid X and Y, this will work
         x = int(t[0])
@@ -47,8 +47,8 @@ print(ans)
 
 # since I split on mul, a do or don't always affects next mul
 # lets make a mask to tell us to include the mul or not
-mul_list = [True] * len(test)
-for i, s in enumerate(test):
+mul_list = [True] * len(filter1)
+for i, s in enumerate(filter1):
     pass
     assert not ("do()" in s and "don't()" in s)
     if "do()" in s:
@@ -99,7 +99,7 @@ up to me. But, for time, I wasn't sure if making a hacky solution would be faste
 than learning regex.
 """
 
-# %% regex soultion
+# %% REGEX soultion
 """
 I decided I should learn some regex. It wasn't that bad. I guess I'm used to seeing
 really complicated regex. Turns out learning regex for this would have been faster
