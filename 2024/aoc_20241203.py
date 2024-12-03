@@ -99,7 +99,7 @@ up to me. But, for time, I wasn't sure if making a hacky solution would be faste
 than learning regex.
 """
 
-# %% REGEX soultion
+# %% regex soultion
 """
 I decided I should learn some regex. It wasn't that bad. I guess I'm used to seeing
 really complicated regex. Turns out learning regex for this would have been faster
